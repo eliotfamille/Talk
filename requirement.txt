@@ -2,3 +2,4 @@ tornado
 streamlit
 openai
 google-genai
+httpx
