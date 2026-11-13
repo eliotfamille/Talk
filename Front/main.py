@@ -3,6 +3,8 @@ import api_client
 
 PROVIDERS = ["openai", "google", "nvidia"]  # fournisseurs disponibles
 
+st.title("Talk")
+
 if "messages" not in st.session_state:
     st.session_state.messages = []  # historique affiche
 if "conversation_id" not in st.session_state:
